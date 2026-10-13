@@ -64,7 +64,7 @@ public class Main {
                         break;
                 }
 
-            } catch (IllegalArgumentException | ArithmeticException e) {
+            } catch (IllegalArgumentException e) {
                 System.out.println("Error: " + e.getMessage());
             }
         }
